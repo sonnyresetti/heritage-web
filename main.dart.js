@@ -25523,9 +25523,11 @@ O0:function O0(a,b,c){this.c=a
 this.d=b
 this.a=c},
 aaJ:function aaJ(a){this.a=a},
-HY:function HY(a,b,c){this.d=a
-this.e=b
-this.a=c},
+HY:function HY(a,b,c,d){var _=this
+_.c=a
+_.d=b
+_.e=c
+_.a=d},
 ZC:function ZC(){this.d=$
 this.c=this.a=null},
 axY:function axY(){},
@@ -86372,7 +86374,7 @@ o.gey(o)
 o=A.b_K()
 o=new A.ape(o,n,!1)
 $.amI=o
-return new A.Dd(new A.CH(new A.HY(A.b([new A.Rs(r,p,q,new A.aX(new A.ac(s,t.U),t.Q),A.q(t.aK,t.Qd))],t.tc),new A.aaJ(this),n),m,n),n)}}
+return new A.Dd(new A.CH(new A.HY(this.c,A.b([new A.Rs(r,p,q,new A.aX(new A.ac(s,t.U),t.Q),A.q(t.aK,t.Qd))],t.tc),new A.aaJ(this),n),m,n),n)}}
 A.aaJ.prototype={
 $2(a,b){var s=null
 return new A.oh(b,"Family Tree ("+A.n(this.a.c)+")",A.t6(s,s,new A.uN(A.Nn(s,s,B.LG)),"SF Pro Display",B.Fb,B.da,!1),s)},
@@ -86391,8 +86393,11 @@ r.toString
 s=this.d
 s===$&&A.a()
 return r.oh(a,s)},
-aev(){var s=null,r=this.a.d,q=A.b([A.aE7(new A.axV(),"menu",s,"/"),A.aE7(new A.axW(),"view",new A.axX(),"/:focalNodeId")],t.yo)
-return A.aWH(!1,new A.axY(),s,s,s,"/7DAg7idM3TFtmtDLcKayJV",s,r,s,!1,s,!0,s,!1,new A.Uq(new A.akz(q,A.b67(),5)))}}
+aev(){var s,r=null,q=this.a,p=q.d
+q=q.c
+if(q==null)q="/"
+s=A.b([A.aE7(new A.axV(),"menu",r,"/"),A.aE7(new A.axW(),"view",new A.axX(),"/:focalNodeId")],t.yo)
+return A.aWH(!1,new A.axY(),r,r,r,q,r,p,r,!1,r,!0,r,!1,new A.Uq(new A.akz(s,A.b67(),5)))}}
 A.axY.prototype={
 $2(a,b){return B.Et},
 $S:528}
