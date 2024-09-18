@@ -5,15 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Redirecting...</title>
+    <title>Page Not Found</title>
 </head>
 
 <body>
+    <h1>404 - Page Not Found</h1>
+    <p>Redirecting to the app...</p>
+
     <script type="text/javascript">
-        // Get the current pathname (e.g., /view/123)
-        var pathname = window.location.pathname;
-        // Redirect to the correct URL with the full pathname preserved
-        window.location.replace(pathname);
+        var path = window.location.pathname;
+        // Redirect to the target page within the app using its routing
+        window.location.replace("/index.html?redirect=" + pathname);
     </script>
 </body>
 
