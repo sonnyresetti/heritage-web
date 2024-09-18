@@ -86121,7 +86121,8 @@ a9z(a){var s,r,q=null
 $.T.toString
 s=A.cb($.aU().gvq(),0,q)
 r=(s.gBp()?A.ds(q,q,"/",q,s.grO(),q):s).k(0)
-if(r==="/")return a
+if(a==null)return r
+else if(r==="/")return a
 else return r}}
 A.aan.prototype={
 $2(a,b){return new A.o7(this.a,b,null)},
@@ -86395,7 +86396,6 @@ s===$&&A.a()
 return r.oh(a,s)},
 aev(){var s,r=null,q=this.a,p=q.d
 q=q.c
-if(q==null)q="/"
 s=A.b([A.aE7(new A.axV(),"menu",r,"/"),A.aE7(new A.axW(),"view",new A.axX(),"/:focalNodeId")],t.yo)
 return A.aWH(!1,new A.axY(),r,r,r,q,r,p,r,!1,r,!0,r,!1,new A.Uq(new A.akz(s,A.b67(),5)))}}
 A.axY.prototype={
