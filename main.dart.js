@@ -28552,7 +28552,7 @@ s=3
 return A.r(A.aDx(),$async$afo)
 case 3:n=b
 m=A.d_(J.aK(n.a,"uid"))
-if(p==null)l=m!=null?"invite/"+m:null
+if(p==null)l=m!=null?"/invite/"+m:null
 else l=p
 if($.a1==null)A.aHk()
 k=$.a1
@@ -104306,7 +104306,7 @@ aq(){var s,r,q,p,o=this
 o.aM()
 s=o.a.c
 r=s!=null
-if(r&&B.d.b6(s,"invite/")){q=new A.qj(J.biC(s,7),null)
+if(r&&B.d.b6(s,"/invite")){q=new A.qj(J.biC(s,7),null)
 p="/view"}else{p=r?"/?status=failure":null
 q=null}r=o.arL(q,p)
 o.d!==$&&A.aY()
