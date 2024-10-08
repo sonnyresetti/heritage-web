@@ -28480,8 +28480,7 @@ s=3
 return A.r(A.aDj(),$async$afi)
 case 3:n=b
 m=A.cW(J.aL(n.a,"uid"))
-if(p==null)l=m!=null?"/invite/"+m:null
-else l=p
+l=m!=null?"/invite/"+m:p
 if($.a1==null)A.aH2()
 k=$.a1
 k.toString
