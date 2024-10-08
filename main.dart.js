@@ -104322,7 +104322,7 @@ aq(){var s,r,q,p,o=this
 o.aM()
 s=o.a.c
 r=s!=null
-if(r&&B.d.b6(s,"/invite")){q=new A.qj(J.biH(s,7),null)
+if(r&&B.d.b6(s,"/invite/")){q=new A.qj(J.biH(s,8),null)
 p="/view"}else{p=r?"/?status=failure":null
 q=null}r=o.arP(q,p)
 o.d!==$&&A.aY()
