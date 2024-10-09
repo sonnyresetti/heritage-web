@@ -101967,7 +101967,7 @@ $1(a){return A.a3C(a)},
 $S:146}
 A.agx.prototype={
 $0(){var s=this.a
-return A.b1P(A.cF(s.a+"/v1/people/"+this.b,0,null),s.b)},
+return A.b1P(A.cF(s.a+"/v1/people/"+this.b+"/graph",0,null),s.b)},
 $S:93}
 A.agw.prototype={
 $1(a){var s=J.fr(t.j.a(J.aM(B.aO.pW(0,A.yd(J.aM(A.y6(a.e).c.a,"charset")).ek(0,a.w),null),"people")),new A.agv(),t.bW)
