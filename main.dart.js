@@ -28785,7 +28785,7 @@ return A.x($async$Em,r)},
 afn(a,b,c){var s=0,r=A.y(t.Zn),q
 var $async$afn=A.u(function(d,e){if(d===1)return A.v(e,r)
 while(true)switch(s){case 0:s=3
-return A.r(A.aYa(new A.a3D(c+"'s family tree invite!",c+" has been invited by "+a+"! Your family is waiting!","https://stitchfam.com/invite/"+b)),$async$afn)
+return A.r(A.aYa(new A.a3D(null,c+" has been invited by "+a+"!\nJoin your family tree now!\n","https://stitchfam.com/invite/"+b)),$async$afn)
 case 3:q=B.Xi
 s=1
 break
