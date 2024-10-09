@@ -28674,7 +28674,7 @@ $.eY().lP("Navigator is null",null,l,null)
 s=1
 break}p=4
 l=l.navigator
-l=l==null?null:A.iH(l.share(t.e.a({title:a.a,text:a.b,url:a.c})),t.X)
+l=l==null?null:A.iH(l.share(t.e.a({url:a.c})),t.X)
 s=7
 return A.r(t.Rs.b(l)?l:A.ec(l,t.X),$async$aYa)
 case 7:p=2
