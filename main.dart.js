@@ -27495,19 +27495,20 @@ return A.q(A.qU(!0,new A.aZH(b),a,!0,t.z),$async$lH)
 case 2:return A.v(null,r)}})
 return A.w($async$lH,r)},
 aZO(a){var s
-$label0$1:{s="Something went wrong, please try again"
-if(t.eI.b(a)){switch(a.a.a){case 0:break
+$label0$1:{s=null
+if(t.eI.b(a)){switch(a.a.a){case 0:s="Something went wrong, please try again"
+break
 case 1:s="Too many attempts, please try again later"
 break
 case 2:s="Unable to send code, ensure the phone number is correct"
-break
-default:s=null}break $label0$1}if(t.r8.b(a)){s=u.R
+break}break $label0$1}if(t.r8.b(a)){s=u.R
 break $label0$1}if(t.ue.b(a)){s=u.W
-break $label0$1}if(t.ED.b(a)||t.bX.b(a))break $label0$1
-s=null}return s},
+break $label0$1}if(t.ED.b(a)||t.bX.b(a)){s="An error occurred, please try again"
+break $label0$1}}return s},
 aXN(a,b){var s
-$label0$1:{s="Something went wrong, please try again"
-if(t.W9.b(a)){switch(a.a.a){case 0:break
+$label0$1:{s=null
+if(t.W9.b(a)){switch(a.a.a){case 0:s="Something went wrong, please try again"
+break
 case 1:s="Something went wrong"
 break
 case 2:s=b?"Failed to sign in with Google":"Invalid code"
@@ -27519,11 +27520,10 @@ break
 case 5:s="This profile has already been claimed"
 break
 case 6:s="Unable to claim the profile"
-break
-default:s=null}break $label0$1}if(t.vV.b(a)){s=u.R
+break}break $label0$1}if(t.vV.b(a)){s=u.R
 break $label0$1}if(t.q7.b(a)){s=u.W
-break $label0$1}if(t.aH.b(a)||t.Og.b(a))break $label0$1
-s=null}return s},
+break $label0$1}if(t.aH.b(a)||t.Og.b(a)){s="An error occurred, please try again"
+break $label0$1}}return s},
 aZH:function aZH(a){this.a=a},
 akc:function akc(a){this.a=a
 this.c=this.b=null},
