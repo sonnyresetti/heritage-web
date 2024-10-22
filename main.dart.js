@@ -29768,7 +29768,7 @@ return A.u($async$FL,r)},
 UI(a,b,c,d){var s=0,r=A.v(t.Zn),q
 var $async$UI=A.q(function(e,f){if(e===1)return A.r(f,r)
 while(true)switch(s){case 0:s=3
-return A.o(A.b2f(new A.a5A(null,d+", you've been invited to join the family tree!","https://stitchfam.com/invite/"+c+":"+b+":")),$async$UI)
+return A.o(A.b2f(new A.a5A(null,d+", you've been invited to join the family tree!","https://stitchfam.com/invite/"+c+":"+b)),$async$UI)
 case 3:q=B.a59
 s=1
 break
